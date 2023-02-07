@@ -1,0 +1,48 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    overflow: clip;
+}
+
+.container {
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 9px 1px black;
+}
+
+.buttons {
+    display: flex;
+}
+
+.btn {
+    margin: 10px;
+    padding: 10px 15px;
+    height:80px;
+    border-radius: 20px;
+    border: none;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 9px 1px whitesmoke;
+}
+
+#btn_reset {
+    height: auto;
+    background-color: black;
+    color: whitesmoke;
+    box-shadow: 0px 0px 9px 1px black;
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(212, 219, 255);
+}
