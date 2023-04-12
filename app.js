@@ -68,7 +68,7 @@ function increaseHeight() {
         container.style.height = 1.1 * parseInt(container.style.height) + 'px';
         container.style.marginTop = getMarginY();
     } else {
-        alert('You have reached groth limit.');
+        alert('You have reached growth limit.');
     }
 }
 
